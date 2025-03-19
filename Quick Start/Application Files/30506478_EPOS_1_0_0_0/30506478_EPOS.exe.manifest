@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="30506478_EPOS.exe" version="1.0.0.0" publicKeyToken="acd2be2390308546" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="30506478_EPOS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="30506478_EPOS.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="30506478_EPOS.exe" size="39856">
+      <assemblyIdentity name="30506478_EPOS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fgDlZvszf7ni7c0O89O+LRn5s0xboYNOK9U+pi4R4Zk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="30506478_EPOS.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=COGC\30506478" issuerKeyHash="6bbcd6c3a02f5cfeaef3d2c8df8b4d18f7f23e29" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>aHMS0bl7Robmvl+5nOS3HXtVNnxA+j3cWanQ+vqbD8E=</DigestValue></Reference></SignedInfo><SignatureValue>gAWT+aR5eu3MtBioV3xLnpXHsib6ey466pyyBTicP0MGTjV3+nOXkdayshigal00dZbj3XA2OXCX8R5mzy5zGwgGuGEWXonYYdb12vgFZhwWKT3fnEBGhH2SYcbnOBnwyhgfOJ6eOZW9ri61NKKqOSZ96byPBz0XG0bp7iY9ta8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>161/0nwGtKxDTZ7aX14Ecyw5sMA66ROurqRIL93Om2P6l+87CFIX1bVTo6G4E35EFebcu5RdKas2meK7z/rUqvZdIhVoAMiPwWUXGEFaBq+A/bgaDjendgsQLTX6SpFrcubPFIXRp0Ji9iQyMLcfiGkIfnt8gUZWf+Lex4hqgJU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c10f9bfafad0a959dc3dfa407c36557b1db7e49cb95fbee686467bb9d1127368" Description="" Url=""><as:assemblyIdentity name="30506478_EPOS.exe" version="1.0.0.0" publicKeyToken="acd2be2390308546" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=COGC\30506478</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wU/ZJ7QKj0JObGLujEtqFfx8IKgNlsuKlb4WfoAYp9c=</DigestValue></Reference></SignedInfo><SignatureValue>k4XWTULZJeK4g9tjajg4vKQCbrmq9Vg9uUc2B1vESwttHFwQSJXpN6eDBkxVEs06XeWdul7SRGPWT4ExEJi7karEkhhh601TrOAp787zZshnMIZW5N9jt8fv7Ev9eoxVxn+fN1s17liAHuP6BrTMUvi3aeZxC5REJRqdwZo9Z4I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>161/0nwGtKxDTZ7aX14Ecyw5sMA66ROurqRIL93Om2P6l+87CFIX1bVTo6G4E35EFebcu5RdKas2meK7z/rUqvZdIhVoAMiPwWUXGEFaBq+A/bgaDjendgsQLTX6SpFrcubPFIXRp0Ji9iQyMLcfiGkIfnt8gUZWf+Lex4hqgJU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQQpFsxPKyyolMZw3lDzDSmDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAQwBPAEcAQwBcADMAMAA1ADAANgA0ADcAODAeFw0yNTAzMTkxMDQ0MTJaFw0yNjAzMTkxNjQ0MTJaMCUxIzAhBgNVBAMeGgBDAE8ARwBDAFwAMwAwADUAMAA2ADQANwA4MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXrX/SfAa0rENNntpfXgRzLDmwwDrpE66upEgv3c6bY/qX7zsIUhfVtVOjobgTfkQV5ty7lF0pqzaZ4rvP+tSq9l0iFWgAyI/BZRcYQVoGr4D9uBoON6d2CxAtNfpKkWty5s8UhdGnQmL2JDIwtx+IaQh+e3yBRlZ/4t7HiGqAlQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABYwCfN83ZXUE0R0//XSuLU+Dqzms5OKzMk1pCQkNWcmiKx4M4AXHzJBKq0YZDZJmQngURnNja+IZox3HcJYaJy4ewP4ibvtbSYyovRbnSwv/e8f1BNsdJqP2pscm9uYy5UrU5KkKAkqvKLJCqrOuswrRlky0OA/GPJpiZWpGWWu</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
